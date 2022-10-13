@@ -21,7 +21,7 @@ const networks = {
 
 if (process.env.PRIVATE_KEY) {
   networks.autobahn = {
-    url: "https://rpc.autobahn.network",
+    url: "https://autobahn-rpc.com",
     accounts: [process.env.PRIVATE_KEY],
   };
 }
